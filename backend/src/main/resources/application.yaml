@@ -2,7 +2,7 @@ spring:
   application:
     name: backend
   datasource:
-    url: jdbc:postgresql://localhost:5432/tenpo_challenge
+    url: jdbc:postgresql://192.168.1.16:5432/tenpo_challenge
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
