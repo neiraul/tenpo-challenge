@@ -126,3 +126,34 @@ td {
     align-items: start;
   }
 }
+
+.filters {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.filter-input {
+  width: 100%;
+}
+
+.clear-button {
+  background: #374151;
+}
+
+.clear-button:hover {
+  background: #1f2937;
+}
+
+.empty-search {
+  margin: 0;
+  color: #6b7280;
+}
+
+@media (min-width: 900px) {
+  .filters {
+    grid-template-columns: 1fr 1fr 1fr auto;
+    align-items: end;
+  }
+}
